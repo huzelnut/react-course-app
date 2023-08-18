@@ -1,0 +1,15 @@
+.courses-topbar-container {
+    display: grid;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.courses-topbar-search-panel {
+    grid-column: 1;
+    justify-self: left;
+}
+
+.courses-topbar-button-new {
+    grid-column: 2;
+    justify-self: right;
+}
