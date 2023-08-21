@@ -1,0 +1,15 @@
+.empty-course-list {
+    position: relative;
+    top: 150px;
+}
+
+.empty-course-list-message {
+    position: relative;
+    text-align: center;
+    bottom: 15px;   
+}
+
+.empty-course-list-button {
+    position: relative;
+    text-align: center;
+}

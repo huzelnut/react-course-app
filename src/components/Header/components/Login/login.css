@@ -1,0 +1,15 @@
+.login-container {
+	display: grid;
+	justify-self: right;
+	align-items: center;
+	justify-items: center;
+}
+
+.login-username {
+	grid-column: 1;
+    padding-right: 5px;
+}
+
+.login-button {
+	grid-column: 2;
+}

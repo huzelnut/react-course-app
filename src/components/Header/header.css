@@ -1,0 +1,28 @@
+.header-area {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1000;
+	background-color: white;
+	opacity: 1;
+	border-bottom: 3px solid lightgrey;
+}
+
+.header-container {
+	display: grid;
+	position: relative;
+}
+
+.header-block {
+	padding: 5px;
+}
+
+.header-logo {
+	grid-column: 1;
+}
+
+.header-login {
+	grid-column: 2;
+	justify-self: end;	
+	align-self: center;
+}
